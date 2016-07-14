@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Ratio="http://schemas.android.com/apk/res/com.example.ratinglayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.ratinglayout.RatioLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        Ratio:ratio="2.43"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+    </com.example.ratinglayout.RatioLayout>
+
+</LinearLayout>
